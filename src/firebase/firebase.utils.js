@@ -3,7 +3,7 @@ import 'firebase/firestore';
 import 'firebase/auth'
 
 const config = {
-    apiKey: "AIzaSyDk3NYGikWsQVckUL8pb0La-sITyXmh3c8",
+    apiKey: `process.env.REACT_APP_FIREBASE_KEY`,
     authDomain: "e-commerce-85c6a.firebaseapp.com",
     databaseURL: "https://e-commerce-85c6a.firebaseio.com",
     projectId: "e-commerce-85c6a",
